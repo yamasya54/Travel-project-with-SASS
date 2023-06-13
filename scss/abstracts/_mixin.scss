@@ -1,7 +1,7 @@
 // mixin
 
 @mixin flexMix($d, $j: center) {
-  // $j ye default değer atadık
+
   display: $d;
   justify-content: $j;
   align-items: center;
@@ -29,10 +29,7 @@
   border: none;
   background: $btnColor;
   border-radius: 8px;
-  //   font-family: Inter;
-  //   font-style: normal;
-  //   font-weight: 500;
-  //   font-size: 0.9rem;
+
   @include fontMix("Inter", normal, 500, 0.9rem, auto);
   width: $width;
   height: 30px;
